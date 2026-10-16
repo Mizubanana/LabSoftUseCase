@@ -73,4 +73,6 @@ public partial class DbTasksContext : DbContext
     public DbSet<AppTask.Models.Incidente> Incidente { get; set; } = default!;
 
     public DbSet<AppTask.Models.Departamento> Departamento { get; set; } = default!;
+
+    public DbSet<AppTask.Models.CentralDeCusto> CentralDeCusto { get; set; } = default!;
 }
