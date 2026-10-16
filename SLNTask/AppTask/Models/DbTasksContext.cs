@@ -71,4 +71,6 @@ public partial class DbTasksContext : DbContext
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 
     public DbSet<AppTask.Models.Incidente> Incidente { get; set; } = default!;
+
+    public DbSet<AppTask.Models.Departamento> Departamento { get; set; } = default!;
 }
